@@ -1,0 +1,12 @@
+<body>
+  <h1>Shonen Jump Media</h1>
+  <ul>
+    <% shonenJump.forEach(shonenJump => { %>
+    <li>
+      <%= shonenJump.text %>
+      -
+      <%= shonenJump.done ? 'done' : 'not done' %>
+    </li>
+  <% }) %>
+  </ul>
+</body>
