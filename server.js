@@ -1,4 +1,4 @@
-import * as animeBigthree from './animeBigthree.js'
+//import * as animeBigthree from './animeBigthree.js'
 
 
 
@@ -22,11 +22,11 @@ app.set('view engine', 'ejs')
 
 // Mount routes
 app.get('/', function(req, res){
-  res.redirect('shonenJump')
+  res.redirect('/shonenJump')
 })
 
 app.get('/shonenJump', function(req, res) {
-  res.render('/shonenJump/index', {
+  res.render('shonenJump/index', {
     shonenJump: shonenJump
   })
 })
