@@ -22,7 +22,7 @@ app.set('view engine', 'ejs')
 
 // Mount routes
 app.get('/', function(req, res){
-  res.redirect('home')
+  res.redirect('shonenJump')
 })
 
 app.get('/shonenJump', function(req, res) {
